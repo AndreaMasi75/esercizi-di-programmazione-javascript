@@ -17,3 +17,8 @@
 
   http://www.imparareaprogrammare.it
 */
+
+let catNumber = 44;
+let catRanks = 6;
+console.log(Math.round(catNumber/catRanks))
+console.log(catNumber%catRanks);
