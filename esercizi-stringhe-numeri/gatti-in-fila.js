@@ -18,7 +18,9 @@
   http://www.imparareaprogrammare.it
 */
 
-let catNumber = 44;
+var catNumber = 44;
 let catRanks = 6;
-console.log(Math.round(catNumber/catRanks))
-console.log(catNumber%catRanks);
+let ranks = Math.ceil(catNumber/catRanks)
+let rest = catNumber%catRanks
+let missCat = (catRanks*ranks)-catNumber
+console.log(`${catNumber} gatti in fila per ${catRanks} con resto di ${rest}, per un totale di ${ranks} file con l'ultima a cui mancano ${missCat} gatti per essere completa!`);
