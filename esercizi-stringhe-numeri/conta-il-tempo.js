@@ -12,3 +12,9 @@
 
   http://www.imparareaprogrammare.it
 */
+let secTot = 22580;
+let hours = Math.floor(secTot/3600);
+let minutes = Math.floor((secTot-(hours*3600))/60);
+let seconds = Math.floor(secTot-(hours*3600+minutes*60));
+
+console.log(`${secTot} secondi equivalgono a: ${hours} ore, ${minutes} minuti e ${seconds} secondi.`);

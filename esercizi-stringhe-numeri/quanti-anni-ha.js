@@ -11,3 +11,11 @@
 
   http://www.imparareaprogrammare.it
 */
+
+let currYear = 2022;
+let yearBorn = 1981;
+
+let age = currYear-yearBorn;
+let to100 = 100-age;
+
+console.log(`Anno di nascita ${yearBorn}; anno corrente ${currYear}. La persona indicata ha ${age} anni e le mancano ${to100} anni per raggiungere i cento anni.`);
